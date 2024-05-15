@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: poppins, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sora, sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* common */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: auto;
+  width: calc(100% - 270px);
+}
+
+.top-nav__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
