@@ -390,6 +390,7 @@ a {
   background: #5bd6e2;
   box-shadow: -15px 26px 48px 0px rgba(85, 240, 255, 0.17);
   text-align: center;
+  z-index: 1;
 }
 
 .about__card-title {
