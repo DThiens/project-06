@@ -110,7 +110,7 @@ a {
 .fixed {
   position: sticky;
   top: -16px;
-  z-index: 999;
+  z-index: 2;
   overflow: hidden;
   background: inherit;
 }
